@@ -7,5 +7,6 @@ struct GitPracticeApp: App {
             ContentView()
         }
         .defaultSize(width: 1280, height: 720)
+        .windowStyle(.plain)
     }
 }
