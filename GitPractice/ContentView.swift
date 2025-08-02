@@ -12,6 +12,7 @@ struct ContentView: View {
         }
         .padding()
     }
+    // This is a good comment
 }
 
 #Preview(windowStyle: .automatic) {
