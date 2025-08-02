@@ -8,4 +8,8 @@ struct GitPracticeApp: App {
         }
         .defaultSize(width: 1280, height: 720)
     }
+
+    WindowGroup {
+        
+    }
 }
