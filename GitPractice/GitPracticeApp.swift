@@ -1,5 +1,5 @@
 import SwiftUI
-
+// MARK: THIS IS A LONG COMMENT>>>>>>>>>>
 @main
 struct GitPracticeApp: App {
     var body: some Scene {
