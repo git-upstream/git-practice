@@ -1,4 +1,5 @@
 import SwiftUI
+import WebKit
 
 struct ChapterDetailView: View {
     let swiftUIDayModel: SwiftUIDayModel
@@ -9,6 +10,9 @@ struct ChapterDetailView: View {
             Text("\(swiftUIDayModel.title)")
             Text(String(swiftUIDayModel.isCompleted))
             Text(swiftUIDayModel.notes)
+            
+            WebView(url: swiftUIDayModel.url)
+
         }
     }
 }
