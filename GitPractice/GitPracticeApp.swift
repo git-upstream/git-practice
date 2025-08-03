@@ -16,3 +16,4 @@ struct GitPracticeApp: App {
 }
 // MARK: This is the first comment as a team member for git-collaborator
 // MARK: This is the second comment as a team member for git-collaborator
+// MARK: This is the third comment as a team member for git-collaborator
