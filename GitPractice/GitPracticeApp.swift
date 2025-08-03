@@ -7,5 +7,6 @@ struct GitPracticeApp: App {
             MainMenuView()
         }
         .defaultSize(width: 600, height: 600)
+        .windowStyle(.plain)
     }
 }
