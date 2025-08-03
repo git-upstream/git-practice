@@ -13,7 +13,7 @@ struct ContentView: View {
             Text("100 Days of SwiftUI")
                 .font(.title)
 
-            Text("You will be doing one chapter a day for 100 days. Being at chapter 1 is a great start!")
+            Text("You will be doing one chapter a day for 100 days.")
         }
         .padding()
     }
