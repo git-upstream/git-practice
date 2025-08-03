@@ -1,21 +1,11 @@
 import SwiftUI
-// MARK: THIS IS A LONG COMMENT>>>>>>>>>>
+
 @main
 struct GitPracticeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
-        }
-        .defaultSize(width: 1280, height: 720)
-        .windowStyle(.plain)
-
-        WindowGroup {
             MainMenuView()
         }
-        .defaultSize(width: 600, height: 600)
+        .defaultSize(width: 1280, height: 720)
     }
 }
-// MARK: This is the first comment as a team member for git-collaborator
-// MARK: This is the second comment as a team member for git-collaborator
-// MARK: This is the third comment as a team member for git-collaborator
-// MARK: This is the first comment as a team member for git-other-collaborator
