@@ -2,8 +2,11 @@ import SwiftUI
 import WebKit
 
 struct ChapterDetailView: View {
-    let swiftUIDayModel: SwiftUIDayModel
+    @Environment(\.openWindow) private var openWindow
 
+    let swiftUIDayModel: SwiftUIDayModel
+    @State private var notes = ""
+    
     var body: some View {
         VStack {
             Text("Chapter \(swiftUIDayModel.number) Detail View")
@@ -11,8 +14,17 @@ struct ChapterDetailView: View {
             Text(String(swiftUIDayModel.isCompleted))
             Text(swiftUIDayModel.notes)
             
-            WebView(url: swiftUIDayModel.url)
-
+            
+                ScrollView {
+                    TextField("Add notes...", text: $notes)
+                        .padding()
+                        .clipShape(RoundedRectangle(cornerRadius: 16))
+                }
+                .background(.gray.opacity(0.4))
+                
+            Button("Open Website") {
+                openWindow(id: "webview")
+            }
         }
     }
 }
