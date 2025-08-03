@@ -6,10 +6,10 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Text("GitHub Practice")
-            Model3D(named: "Scene", bundle: realityKitContentBundle)
-                .padding(.bottom, 50)
+                .font(.extraLargeTitle)
 
-            Text("Hello, world!")
+            Text("100 Days of SwiftUI")
+                .font(.title)
         }
         .padding()
     }
