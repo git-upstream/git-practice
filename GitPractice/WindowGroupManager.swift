@@ -11,3 +11,4 @@ enum WindowGroupType: String {
 }
 
 // This is another bad comment.
+// This is a good comment
