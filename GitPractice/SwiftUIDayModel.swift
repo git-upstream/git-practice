@@ -1,7 +1,7 @@
 import Foundation
 
-struct SwiftUIDayModel: Identifiable, Hashable {
-    let id = UUID()
+struct SwiftUIDayModel: Identifiable, Hashable, Codable {
+    var id = UUID()
     let number: Int
     let title: String
     let url: String

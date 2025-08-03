@@ -5,18 +5,18 @@ import RealityKitContent
 struct MainMenuView: View {
     @State private var listOfSwiftUIDays: [SwiftUIDayModel] = [SwiftUIDayModel.sample]
     @State private var selectedSwiftUIDay: SwiftUIDayModel?
-
+    
     var body: some View {
         NavigationStack {
             VStack {
                 Text("GitHub Practice")
                     .font(.extraLargeTitle)
-
+                
                 Text("100 Days of SwiftUI")
                     .font(.title)
-
+                
                 Text("You will be doing one chapter a day for 100 days.")
-
+                
                 List(listOfSwiftUIDays, id: \.id) { day in
                     Button {
                         selectedSwiftUIDay = day
@@ -29,15 +29,15 @@ struct MainMenuView: View {
                         }
                     }
                 }
-                }
-                .padding()
-                .navigationDestination(item: $selectedSwiftUIDay) { day in
-                    ChapterDetailView(swiftUIDayModel: day)
-                }
+            }
+            .padding()
+            .navigationDestination(item: $selectedSwiftUIDay) { day in
+                ChapterDetailView(swiftUIDayModel: day)
             }
         }
     }
+}
 
-    #Preview(windowStyle: .automatic) {
-        MainMenuView()
-    }
+#Preview(windowStyle: .automatic) {
+    MainMenuView()
+}
