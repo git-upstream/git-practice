@@ -3,6 +3,8 @@ import RealityKit
 import RealityKitContent
 
 struct ContentView: View {
+    @State private var listOfChapters: [String] = ["Chapter 1"]
+
     var body: some View {
         VStack {
             Text("GitHub Practice")
