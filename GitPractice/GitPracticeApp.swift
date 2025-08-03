@@ -25,9 +25,3 @@ struct GitPracticeApp: App {
 
     }
 }
-
-
-//
-//WindowGroup(id: "FlowerWindow", for: FlowerItem.self, content: { $value in
-//    DetailView(item: $value)
-//})
