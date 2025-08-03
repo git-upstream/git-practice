@@ -9,3 +9,5 @@ enum WindowGroupType: String {
     case mainMenu = "mainMenu"
     case webview = "webview"
 }
+
+// This is a bad comment.
