@@ -14,3 +14,4 @@ struct GitPracticeApp: App {
         }
     }
 }
+// MARK: This is the first comment as a team member for git-collaborator
