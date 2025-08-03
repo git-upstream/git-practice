@@ -12,6 +12,7 @@ struct GitPracticeApp: App {
         WindowGroup {
             MainMenuView()
         }
+        .defaultSize(width: 1280, height: 1280)
     }
 }
 // MARK: This is the first comment as a team member for git-collaborator
