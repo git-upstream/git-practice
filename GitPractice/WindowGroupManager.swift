@@ -10,5 +10,4 @@ enum WindowGroupType: String {
     case webview = "webview"
 }
 
-// This is another bad comment.
-// This is a great comment.
+// Error
