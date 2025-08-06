@@ -11,3 +11,4 @@ enum WindowGroupType: String {
 }
 
 // Error
+// Another error
