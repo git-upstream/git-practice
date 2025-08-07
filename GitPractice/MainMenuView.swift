@@ -48,11 +48,7 @@ struct MainMenuView: View {
 // step 2
 // step 3
 // step 4
-// step 5 other collaborator
-// step 6 other collaborator
-
-// step 15
-// step 16
-// step 17
-// step 18
-// step 19
+// step 5 other collaborato
+// step 6
+// step 10
+// step 11
