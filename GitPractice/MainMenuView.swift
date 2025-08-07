@@ -42,3 +42,4 @@ struct MainMenuView: View {
 #Preview(windowStyle: .automatic) {
     MainMenuView()
 }
+// this is a commment from main
