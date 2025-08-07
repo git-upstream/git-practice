@@ -11,4 +11,4 @@ enum WindowGroupType: String {
 }
 
 // Conflicting Error
-// Incoming conflict
+// A good conflict
