@@ -30,7 +30,7 @@ struct MainMenuView: View {
                     }
                 }
             }
-            .padding()
+            .padding(50)
             .navigationDestination(item: $selectedSwiftUIDay) { day in
                 ChapterDetailView(swiftUIDayModel: day)
             }
