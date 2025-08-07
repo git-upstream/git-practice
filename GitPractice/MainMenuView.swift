@@ -44,3 +44,4 @@ struct MainMenuView: View {
     MainMenuView()
 }
 // add coment from collaborator
+// step 1
