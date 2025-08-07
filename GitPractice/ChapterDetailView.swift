@@ -1,6 +1,6 @@
 import SwiftUI
 import WebKit
-
+// git other collaborator
 struct ChapterDetailView: View {
     @Environment(\.openWindow) private var openWindow
 

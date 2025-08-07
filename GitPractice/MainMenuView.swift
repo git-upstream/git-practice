@@ -31,6 +31,7 @@ struct MainMenuView: View {
                 }
             }
             .padding(50)
+            // too little padding (main)
             .navigationDestination(item: $selectedSwiftUIDay) { day in
                 ChapterDetailView(swiftUIDayModel: day)
             }
