@@ -43,3 +43,4 @@ struct MainMenuView: View {
 #Preview(windowStyle: .automatic) {
     MainMenuView()
 }
+// add coment from collaborator
