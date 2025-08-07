@@ -44,3 +44,4 @@ struct MainMenuView: View {
     MainMenuView()
 }
 // comment from other collaborator
+// new comment from collaborator
