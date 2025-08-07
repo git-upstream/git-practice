@@ -40,7 +40,7 @@ struct MainMenuView: View {
     }
 }
 
-#Preview(windowStyle: .automatic) {
+#Preview(windowStyle: .plain) {
     MainMenuView()
 }
 // add coment from collaborator
