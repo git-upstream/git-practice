@@ -10,5 +10,5 @@ enum WindowGroupType: String {
     case webview = "webview"
 }
 
-// Error
-// Another error
+// Conflicting Error
+// Incoming conflict
