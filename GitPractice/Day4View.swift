@@ -1,18 +1,66 @@
-//
-//  Day4View.swift
-//  GitPractice
-//
-//  Created by Don Mallow on 8/10/25.
-//
+/*
+Loops
+ For in loops:
+ for _ in 1...5 { }
+ for num in count { }
 
-import SwiftUI
+ While loops
+ var number = 1
+ while number <= 20 {
+     print(number)
+     number += 1
+ }
+ print("Ready or not, here I come!")
 
-struct Day4View: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
+ Repeat loops
+ var number = 1
+ repeat {
+     print(number)
+     number += 1
+ } while number <= 20
+ print("Ready or not, here I come!")
 
-#Preview {
-    Day4View()
-}
+ Exiting a loop
+ break
+
+ Exiting multiple loops:
+ outerLoop: for i in 1...10 {
+     for j in 1...10 {
+         let product = i * j
+         print ("\(i) * \(j) is \(product)")
+         if product == 50 {
+             print("It's a bullseye!")
+             break outerLoop
+         }
+     }
+ }
+
+ Skip items
+ continue
+
+ Infinite loops
+ var counter = 0
+ while true {
+     print(" ")
+     counter += 1
+     if counter == 273 {
+         break
+     }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ */
